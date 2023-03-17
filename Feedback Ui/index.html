@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <div class="container" id="container">
       <h1>Leave a Feedback</h1>
-      <div class="feedback">
-        <img src="images/sad.png" alt="" />
-        <small>Unhappy</small>
+      <div class="feedback-wrapper">
+        <div class="feedback">
+          <img src="images/sad.png" alt="" />
+          <small>Unhappy</small>
+        </div>
+        <div class="feedback">
+          <img src="images/neutral.png" alt="" />
+          <small>Neutral</small>
+        </div>
+        <div class="feedback">
+          <img src="images/smiling-face.png" alt="" />
+          <small>Satisfied</small>
+        </div>
       </div>
-      <div class="feedback">
-        <img src="images/neutral.png" alt="" />
-        <small>Neutral</small>
-      </div>
-      <div class="feedback">
-        <img src="images/smiling-face.png" alt="" />
-        <small>Satisfied</small>
-      </div>
+
       <button class="btn" id="btn">Send Review</button>
     </div>
   </body>
