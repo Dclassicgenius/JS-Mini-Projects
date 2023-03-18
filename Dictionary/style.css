@@ -50,3 +50,7 @@ body {
 .meaning-container p:first-child {
     margin-top: 1em;
 }
+
+.meaning-container {
+    display: none;
+}
