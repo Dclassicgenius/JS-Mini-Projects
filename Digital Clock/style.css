@@ -6,13 +6,14 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-size: cover;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
     letter-spacing: 5px;
     font-size: 1rem;
     text-align: center;
+    color: aliceblue;
 }
 
 .clock {
@@ -55,5 +57,5 @@ h1 {
     width: 60px;
     height: 30px;
     font-size: 1.25rem;
-    background-color: green;
+    background-color: rgba(250, 1, 250, 0.7);
 }
